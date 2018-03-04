@@ -1,0 +1,32 @@
+{
+  "name": "buffaloconnect",
+  "version": "1.0.0",
+  "description": "Buffalo Civic Challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petardfoozer/BuffaloCivicChallenge.git"
+  },
+  "author": "Peter Cageao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petardfoozer/BuffaloCivicChallenge/issues"
+  },
+  "homepage": "https://github.com/petardfoozer/BuffaloCivicChallenge#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.0.4",
+    "webpack": "^4.1.0",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
